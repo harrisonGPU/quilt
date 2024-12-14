@@ -1,10 +1,10 @@
 #!/bin/bash
 
-USER="zyuxuan"
+USER="Harrison"
 
 function setup_k8s {
   ### setup the kubernetes cluster
-  sudo chmod -R 777 /users/$USER/.docker
+  sudo chmod -R 777 /users/Harrison/.docker
   k3sup plan machine.json \
     --user $USER \
     --servers 1 \
